@@ -2,14 +2,12 @@ body{
     margin: 0;
     padding: 0;
     background-color: #101922;
-    width: max-content;
     color: #ffffff;
 }
 header {
     width: 99vw;
     position: fixed;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 40px;
@@ -19,20 +17,11 @@ header {
     margin-right: 15px;
     width: 27px;
 }
-.suka{
-    margin-left: 100px;
-}
+
 p{  
     font-size: 18px;
-    margin-right: 250px;
 }
-.suka1{
-    margin-left: 100px;
-}
-.news{
-    width: 100vw;
-    height: 32px;
-}
+
 header a {
   color: #ffffff;
   padding-right: 12px;
@@ -45,7 +34,7 @@ header a {
 .img1{
     width: 181px ;
     height: 229px;
-    margin: 100px 0 0 50px;
+    margin: 100px 0 0 100px;
     border-radius: 25px;
     margin-right: 100px;
 }
@@ -54,19 +43,16 @@ header a {
     height: 229px;
     margin: 100px 0 0 100px;
     border-radius: 69px;
-}
-
-header a:hover {
-  background-color: #31313171;
+    margin-right: 100px;
 }
 
 .mama{
+    display: flex;
     width: max-content;
-
     position: relative;
 }
 
-div , .negr{
+ .negr{
   display: flex;
   align-items: center;
 }
@@ -77,14 +63,8 @@ div , .negr{
     background-color: #106ac2;
     height: 32px ;
     width: 158px;
-    margin-left: 60px;
 }
-#nemnogo{
-    margin-left: 170px;
-}
-#nemnogo1{
-    margin-left: 240px;
-}
+
 .left{
     margin-right: 50px;
     border-radius: 33px ;
@@ -92,7 +72,69 @@ div , .negr{
     padding: 10px;
 }
 .nt{
-    width: 311px;
-    height: 231px ;
-    background-color:#0080ff;
+    margin-top: 120px;
+    background-color:#1C242C;
+    border-radius: 24px;
+}
+.gt{
+    margin-top: auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 274px;
+    background-color:#1C242C;
+    border-radius: 24px;
+}
+.gtt{
+    margin-top: auto;
+    margin-left: 120px;
+    background-color:#1C242C;
+    border-radius: 24px;
+}
+input{
+    font-size: 14px;
+    color: #6b7280;
+    background-color: #283039;
+    border-radius: 17px;
+    height: 33px;
+    margin-left:20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#fio{
+    width:271px ;
+}
+#ser{
+    width: 77px;
+}
+h1{
+    margin: 20px;
+    color: red;
+    font-weight: 900;
+    font-size: 64px;
+}
+#dat{
+    width: 271px;
+}
+.ll{
+    margin-top: 17px;
+    margin-left: 25px;
+    text-align: right;
+    width: 148px;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#xv{
+    margin-top: 10px;
+    box-shadow: 0px 2px 11px 4px #1834C3;
+}
+#gv{
+    box-shadow: 0px 3px 14px 3px #FF0000;
+}
+#el{
+    box-shadow: 0 -2px 15px 5px #0082C0;
+}
+#tiho{
+    display: flex;
 }
