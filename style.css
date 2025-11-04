@@ -32,21 +32,22 @@ header a {
 }
 
 .img1{
-    width: 15vw ;
-    height: 30vh;
-    margin: 18vh 0 0 10vw;
+    width: 200px ;
+    height: 200px;
+    margin: 100px 0 0 100px;
     border-radius: 25px;
     margin-right: 100px;
 }
 .img2{
-    width: 15vw;
-    height: 30vh;
-    margin: 18vh 0 0 10vw;
+    width: 200px;
+    height: 200px;
+    margin: 100px 0 0;
     border-radius: 69px;
     margin-right: 100px;
 }
 
 .mama{
+    
     display: flex;
     width: max-content;
     position: relative;
@@ -61,8 +62,8 @@ header a {
     color: white;
     border-radius: 35px;
     background-color: #106ac2;
-    height: 5vh ;
-    width: 10vw;
+    height: 40px ;
+    width: 100px;
 }
 
 .left{
