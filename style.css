@@ -5,7 +5,7 @@ body{
     color: #ffffff;
 }
 header {
-    width: 99vw;
+    width: 100vw;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -32,16 +32,16 @@ header a {
 }
 
 .img1{
-    width: 181px ;
-    height: 229px;
-    margin: 100px 0 0 100px;
+    width: 15vw ;
+    height: 30vh;
+    margin: 18vh 0 0 10vw;
     border-radius: 25px;
     margin-right: 100px;
 }
 .img2{
-    width: 203px;
-    height: 229px;
-    margin: 100px 0 0 100px;
+    width: 15vw;
+    height: 30vh;
+    margin: 18vh 0 0 10vw;
     border-radius: 69px;
     margin-right: 100px;
 }
@@ -61,8 +61,8 @@ header a {
     color: white;
     border-radius: 35px;
     background-color: #106ac2;
-    height: 32px ;
-    width: 158px;
+    height: 5vh ;
+    width: 10vw;
 }
 
 .left{
@@ -72,21 +72,25 @@ header a {
     padding: 10px;
 }
 .nt{
-    margin-top: 120px;
+    position: absolute; 
+    bottom: 10px;
     background-color:#1C242C;
     border-radius: 24px;
 }
 .gt{
-    margin-top: auto;
-    margin-left: 120px;
-    margin-right: 120px;
+    position: absolute; 
+    bottom: 10px; 
+    margin-left: 30vw;
     width: 274px;
     background-color:#1C242C;
     border-radius: 24px;
 }
 .gtt{
+    position: absolute; 
+    bottom: 10px;
+    right: 0;
     margin-top: auto;
-    margin-left: 120px;
+    
     background-color:#1C242C;
     border-radius: 24px;
 }
