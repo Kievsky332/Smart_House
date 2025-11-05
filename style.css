@@ -15,10 +15,10 @@ header {
 
 .logo1{
     margin-right: 15px;
-    width: 27px;
+    width: 34px;
 }
 
-p{  
+p{
     font-size: 18px;
 }
 
@@ -41,22 +41,17 @@ header a {
 .img2{
     width: 200px;
     height: 200px;
-    margin: 100px 0 0;
+    margin: 100px 0 0 100px;
     border-radius: 69px;
     margin-right: 100px;
 }
 
 .mama{
-    
     display: flex;
     width: max-content;
     position: relative;
 }
 
- .negr{
-  display: flex;
-  align-items: center;
-}
 .button1{
     font-size: 18px;
     color: white;
@@ -110,6 +105,9 @@ input{
 }
 #ser{
     width: 77px;
+}
+#video{
+    display: none;
 }
 
 h1{
