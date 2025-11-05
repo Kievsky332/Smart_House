@@ -43,29 +43,40 @@
     
         <div id="tiho">
             <div class="nt">
+                <form>
                 <center><h3>Заявка на вьезд</h3></center>
-                <input type="text" placeholder="Фамилия Имя Отчество(при наличии)" id="fio">
-                <div>
-                    <input type="number" placeholder="Серия" id="ser">
-                    <input type="number" placeholder="номер паспорта">
-                </div>
-                <input type="date" id="dat">
-                <center><button class="button1"> Дать</button></center>
+                    <input type="text" placeholder="Фамилия Имя Отчество(при наличии)" id="fio"required>
+                    <div>
+                        <input type="number" placeholder="Серия" id="ser"   required>
+                        <input type="number" placeholder="номер паспорта" required>
+                    </div>
+                    <input type="date" id="dat"required>
+                    <center><button type="submit" class="button1" > Дать</button></center>
+                </form>
             </div>
             <div class="gt">
                 <center><h3>Отправка показаний</h3></center>
-                <input type="number" placeholder="м³" id="xv" class="ll">
-                <div>
-                    <input type="number" placeholder="м³" id="gv" class="ll">
-                </div>
-                <input type="number" id="el" placeholder="кВт*ч" class="ll">
-                <center><button class="button1"> Подать</button></center>
+                <form>           
+                    <div>
+                        <a>х</a>
+                        <input type="number" placeholder="м³" id="xv" class="ll">
+                    </div>
+                    <div>
+                        <a>г</a>
+                        <input type="number" placeholder="м³" id="gv" class="ll">
+                    </div>
+                    <div>
+                        <a>э</a>
+                        <input type="number" id="el" placeholder="кВт*ч" class="ll">
+                    </div>
+                    <center><button type="submit" class="button1"> Подать</button></center>
+                </form>
             </div>
 
             <div class="gtt">
                 <center><h3>Оплата</h3>
-                <h1>3.000.000</h1>
-                <button class="button1"> оплатить</button></center>
+                <h1 id="cif">3.000.000</h1>
+                <button class="button1" onclick="oplata()"> оплатить</button></center>
             </div>
         </div>
     </div>

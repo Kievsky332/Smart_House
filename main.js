@@ -24,10 +24,13 @@ function five(){
     setTimeout(() => {
         myElement.style.display = 'block';
         myElement1.style.display = "none"    
-        setTimeout(() => {
-             myElement1.style.display = "block"
-             myElement.style.display="none"
-        }, 5000);
-    }, 2000);
-
+    }, 2000);    
+    setTimeout(() => {
+         myElement1.style.display = "block"
+        myElement.style.display="none"
+    }, 5000);
+}
+function oplata(){
+    const my1 = document.getElementById('cif');
+    my1.innerHTML = "0"
 }
