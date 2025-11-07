@@ -40,7 +40,7 @@ let summa = 0
 function myTask() {
     const my = document.getElementById('cif');
     my.innerHTML =summa+" ₽"
-    summa +=1
+    summa +=100
 
 }
 let timerId = setInterval(myTask, 1000);
