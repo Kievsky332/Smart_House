@@ -31,6 +31,16 @@ function five(){
     }, 5000);
 }
 function oplata(){
-    const my1 = document.getElementById('cif');
-    my1.innerHTML = "0"
+    const my = document.getElementById('cif');
+    
+    alert("Вы оплатили "+ my.innerHTML) 
+    summa = 0 
 }
+let summa = 0
+function myTask() {
+    const my = document.getElementById('cif');
+    my.innerHTML =summa+" ₽"
+    summa +=1
+
+}
+let timerId = setInterval(myTask, 1000);
