@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1946/1946433.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Умный дом</title>
+</head>
+<body>
+    <video src="https://shattereddisk.github.io/rickroll/rickroll.mp4" id="video" style="width: 100vw; height: 100vh;" loop autoplay muted></video>
+    <div id="main">
+        <header>
+            <div>
+                <a href="#" class="m">
+                    <img src="https://cdn-icons-png.flaticon.com/512/9187/9187555.png" class="logo1">Умный Дом</a>
+            </div>
+            <div class="m">
+                <center><img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" class="logo1">
+                <a class="active" >ул.Щёлковское шоссе 52.</a></center>
+            </div>
+            <a class="left" id="time">00:00</a>
+        </header>
+        <div class="mama">
+            <div>
+                <img  src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRqrdAuS7DQtTwQG9ZOe6vwbZqmlhqjmCHxW_HZI5PnC68AsLA3" class="img3">
+                <center><p>Домофон</p>
+                <button class="button1" onclick="open1()"> Открыть</button>
+                </center>
+            </div>
+            <div>
+                <img src="https://ckb.name/wp-content/uploads/2021/06/shlagbaum-obekt-14.jpg" class="img2">
+                <center>
+                <p>Шлагбаум</p>
+                <button class="button1" onclick="up()" > Поднять</button></center>
+            </div>
+            <div>
+                <iframe src="https://flussonic2.powernet.com.ru:444/user178554/embed.html?token=dont-panic-and-carry-a-towel&autoplay=true&play_duration=28800"  class="img1" allowfullscreen></iframe>
+                <center><p >Двор</p> 
+                </center>
+            </div>
+        </div>
+    
+        <div id="tiho">
+            <div class="nt">
+                <form>
+                <center><h3>Заявка на посещение</h3></center>
+                    <input type="text" placeholder="Фамилия Имя Отчество(при наличии)" id="fio"required>
+                    <div>
+                        <input type="number" placeholder="Серия" id="ser"   required>
+                        <input type="number" placeholder="номер паспорта" required>
+                    </div>
+                    <input type="date" id="dat"required>
+                    <center><button type="submit" class="button1" > Дать</button></center>
+                </form>
+            </div>
+            <div class="gt">
+                <center><h3>Отправка показаний</h3></center>
+                <form>           
+                    <div>
+                        <input type="number" placeholder="м³" id="xv" class="ll">
+                        <a class="hu">Хол.</a>
+                    </div>
+                    <div>
+                        <input type="number" placeholder="м³" id="gv" class="ll">
+                        <a class="hu">Гор.</a>
+                    </div>
+                    <div>
+                        <input type="number" id="el" placeholder="кВт*ч" class="ll">
+                        <a class="hu">Эл.</a>
+                    </div>
+                    <center><button type="submit" class="button1"> Подать</button></center>
+                </form>
+            </div>
+
+            <div class="gtt">
+                <center><h3>Оплата</h3>
+                <h1 id="cif"></h1>
+                <button class="button1" onclick="oplata()"> оплатить</button></center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

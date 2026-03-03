@@ -31,12 +31,12 @@ header a {
   
 }
 
-.img1{
+.img1 , .img2, .img3{
     width: 200px ;
     height: 200px;
     margin: 100px 0 0 100px;
     border-radius: 25px;
-    margin-right: 100px;
+    
 }
 
 .mama{
@@ -44,7 +44,7 @@ header a {
     width: max-content;
     position: relative;
 }
-.huiii{
+.hu{
     border-radius: 40px;
     padding: 8px;
     background-color: #283039;
@@ -154,8 +154,14 @@ input[type=number]::-webkit-inner-spin-button {
 }
 @media (max-height: 740px){
     .img1{
-        width: 150px;
-        height: 150px;
+        width: 350px;
+        height: 200px;
+    }
+    .img2{
+        
+    }
+    .img3{
+
     }
     input{
         font-size: 14px;
