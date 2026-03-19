@@ -38,11 +38,11 @@ function oplata(){
 let summa = 0;
 function myTask() {
     const my = document.getElementById('cif');
-    my.innerHTML =summa/1000+" ₽";
+    my.innerHTML =summa/100+" ₽";
     summa +=1;
 
 }
-let timerId = setInterval(myTask, 1000);
+let timerId = setInterval(myTask, 10000);
 document.addEventListener('keydown', function(event) {
   if (event.code === 'ArrowDown') {
     five();
