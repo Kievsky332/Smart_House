@@ -42,7 +42,7 @@ function myTask() {
     summa +=1;
 
 }
-let timerId = setInterval(myTask, 10000);
+//let timerId = setInterval(myTask, 10000);
 document.addEventListener('keydown', function(event) {
   if (event.code === 'ArrowDown') {
     five();
